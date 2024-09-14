@@ -1,4 +1,6 @@
-Authors: Alaa Hewela (@Alaa253), Logy Khaled (@Logy), Awoleke Ifeoluwa (@Ifeolu01), Rahma mamdouh Mohammed (@Rahmamam2000), Melvin Khakabo (@MELmostly), Tawfek Ahmed Tawfek (@Tawfekahmed25), Chidimma Nwaku (@Mma)
+Authors: Alaa Hewela (@Alaa253), Logy Khaled (@Logy), Rahma mamdouh Mohammed (@Rahmamam2000), Melvin Khakabo (@MELmostly), Tawfek Ahmed Tawfek (@Tawfekahmed25)
+
+the code: https://github.com/AlaaHewela/Hackbio-Task3/blob/0e240c8adb287c8f720b5535fbc03a3c58ceb485/Task3%20.R
 
 # Goal
 
