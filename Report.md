@@ -9,13 +9,12 @@ The objective of this analysis was to visualize differential gene expression in 
 At first we made a heatmap in R using the function (heatmap.2) of the package (gplots) that had clustered columns, since the columns represent the samples, this was done in order to identify the pattern of gene expression and know how to group the samples together
 
 ## Heatmap with diverging color palette 
+![1](https://github.com/user-attachments/assets/61e72bb3-7d66-476d-a999-a858b6562bd8)
 
-![][image1]  
 The diverging color palettes highlights the extremes of expression as it uses two different  colors. Using diverging colors, we can see clearly which samples show similar gene expression pattern and therefore we’re able to group them together which will later help us calculate the fold change and p-values. It also shows us which genes are upregulated and which are downregulated in each sample; the red in this heatmap are the genes highly expressed in the respective sample. 
 
 ## Heatmap using sequential color palette
-
-![][image2]
+![2](https://github.com/user-attachments/assets/07cf7d8e-bccd-4ce6-9fe8-caebeecb7d1d)
 
 Sequential color palette is for visualizing continuous gradients of values. It’s ideal for representing data that ranges from low to high values without a clear midpoint. This helps in understanding the magnitude of changes in gene expression.
 
@@ -25,21 +24,25 @@ Using the diverging color palette is more significant in visualizing this datase
 
 ### With clustering of rows (genes)
 
-![][image3]
+![3](https://github.com/user-attachments/assets/ec2752a2-9a2e-4a78-a7c6-6f027182af29)
+
 
 ### With clustering of columns (samples)
 
-### ![][image4]
+![Rplot](https://github.com/user-attachments/assets/89c90e94-1eac-4f2d-aaf9-3ca01f5e56aa)
+
 
 ### With clustering of rows and columns
 
-![][image5]
+![5](https://github.com/user-attachments/assets/fee0fcee-bfcb-43e7-b1c3-2233ecae96d6)
+
 
 # Functional enrichment analysis
 
 After grouping the samples, we calculated the fold change and the p\_values and then plotted them to help us decide the cutoffs. 
 
-![][image6]  
+![6](https://github.com/user-attachments/assets/da23d1cb-1162-4714-9c2f-9016dc0d1335)
+
 Since  there is clear distinction between the positive and the negative, we set the log2 fold change cuttoff to be 1 and the p\_value cutoff to be  2, so to include all the genes for better results. 
 
 Upregulated genes have a **positive log2 fold change** and a **significant p-value**  
@@ -48,7 +51,8 @@ Downregulated genes have a **negative log2 fold change** and a **significant p-v
 After subsetting the upregulated genes and downregulated genes, We ran the functional enrichment analysis using ShinyGo to identify the top pathways that these genes were involved in.
 
 The results were then plotted as lollipop plot   
-![][image7]  
+![7](https://github.com/user-attachments/assets/54ce9d17-1fda-44f8-bf89-90ea0fa3c8cf)
+
 The top 5 enriched pathways of upregulated genes are   
 1- Cytokine-cytokine receptor interaction  
 2- IL-17 signaling pathway  
