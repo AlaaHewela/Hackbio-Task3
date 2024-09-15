@@ -55,10 +55,7 @@ After subsetting the upregulated genes and downregulated genes, We ran the funct
 The results were then plotted as lollipop plot   
 ![7](https://github.com/user-attachments/assets/54ce9d17-1fda-44f8-bf89-90ea0fa3c8cf)
 
-The top 3 enriched pathways of upregulated genes are   
-1- Cytokine-cytokine receptor interaction  
-2- IL-17 signaling pathway  
-3- Viral protein interaction with cytokine and cytokine receptor   
+The top 3 enriched pathways of upregulated genes are:
 
 ### Cytokine-cytokine receptor interaction
 
